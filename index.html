@@ -8,10 +8,10 @@
 <meta name="apple-mobile-web-app-title" content="Gohan Protocol">
 <meta name="theme-color" content="#0a0a0a">
 <meta name="description" content="12-Week lean bulk programme — Build the Beast Gohan physique from 65kg">
-<link rel="apple-touch-icon" href="./icon-gohan-192.png">
-<link rel="manifest" href="./gohan_manifest.json">
+<link rel="apple-touch-icon" href="/GohanKcyb/icon-192.png">
+<link rel="manifest" href="./manifest.json">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>GOHAN PROTOCOL</title>
+<title>GOHAN PROTOCOL · 65KG</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -1040,14 +1040,14 @@ body{
 
 <!-- HERO -->
 <div class="hero">
-  <div class="hero-eyebrow">16-Week Lean Bulk Programme</div>
+  <div class="hero-eyebrow">16-Week Lean Bulk · Starting 65kg</div>
   <div class="hero-title">GOHAN<br><em>PROTOCOL</em></div>
-  <div class="hero-sub">Built for 100kg / 5'10" — body recomposition: build muscle, lose fat, transform your physique.</div>
+  <div class="hero-sub">Built for 100kg — body recomposition: build muscle, lose fat, transform your physique.</div>
   <div class="hero-pills">
     <div class="pill gold">Push · Pull · Legs</div>
     <div class="pill">6 Days / Week</div>
     <div class="pill">4 Phases</div>
-    <div class="pill gold">Lean Bulk · 65kg</div>
+    <div class="pill gold">Lean Bulk · 65kg start</div>
   </div>
 </div>
 
@@ -2012,7 +2012,7 @@ body{
 
 <!-- ===== NUTRITION ===== -->
 <div id="tab-nutrition" class="section">
-  <div class="sec-label">Daily Targets · 65kg · Lean Bulk</div>
+  <div class="sec-label">Daily Targets · 65kg Starting Weight · Lean Bulk</div>
   <div class="sec-title">NUTRITION</div>
   <div class="macro-row">
     <div class="mcell"><div class="mnum">160</div><div class="munit">g / day</div><div class="mname">Protein</div></div>
@@ -2027,7 +2027,7 @@ body{
 
   <div style="background:rgba(124,58,237,0.07);border:1px solid rgba(124,58,237,0.25);padding:13px 14px;margin-bottom:14px;">
     <div style="background:rgba(124,58,237,0.07);border:1px solid rgba(124,58,237,0.25);padding:13px 14px;margin-bottom:14px;">
-    <div style="font-size:10px;color:var(--accent);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;">💡 Lean Bulk Strategy · 65kg</div>
+    <div style="font-size:10px;color:var(--accent);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;">💡 Lean Bulk Strategy · Starting Weight: 65kg</div>
     <div style="font-size:11px;color:var(--mid);line-height:1.8;">
       At 65kg you need to eat MORE than your body burns to build muscle. This is a <strong style="color:var(--white)">lean bulk</strong> — a controlled 200–300 kcal daily surplus. Expect to gain ~0.25–0.5kg per week. The scale SHOULD go up slowly — that's muscle being built. <strong style="color:var(--white)">If the scale doesn't move, eat more. If gaining too fast, pull back slightly.</strong>
     </div>
@@ -3742,7 +3742,7 @@ function initTracking(){
 <script>
 // PWA SERVICE WORKER
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('./sw.js')
+  navigator.serviceWorker.register('/GohanKcyb/sw.js', {scope: '/GohanKcyb/'})
     .catch(err => console.log('SW failed:', err));
 }
 
